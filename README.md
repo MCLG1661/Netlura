@@ -32,6 +32,12 @@ A imersão abordou desde a estruturação semântica com HTML, estilização ava
 
 ---
 
+## 🖥️ Como Visualizar o Projeto
+
+- Clique aqui para ver o Netlura :
+
+--- 
+
 ## 📁 Estrutura do Projeto
 ```
 aluraflix/
@@ -67,9 +73,17 @@ aluraflix/
 
 ---
 
-## 👩‍💻 Agradecimentos
+## Agradecimentos
 
 - A Alura
 - Agradecimentos especiais aos instrutores Guilherme Lima, Fernanda Degolin e Thamiris Adriano pela excelente condução da imersão.
+
+---
+
+## 👨‍💻 Autor :
+
+Marcus Guedes
+GitHub: https://github.com/MCLG1661
+LinkedIn: https://www.linkedin.com/in/marcusguedes
  
 
