@@ -33,7 +33,7 @@ A imersão abordou desde a estruturação semântica com HTML, estilização ava
 ---
 
 ## 📁 Estrutura do Projeto
-text
+```
 aluraflix/
 │
 ├── index.html          # Estrutura principal da página
@@ -44,5 +44,6 @@ aluraflix/
 │   └── /css
 └── README.md           # Documentação do projeto
 
+```
 
 
