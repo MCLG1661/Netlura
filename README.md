@@ -1,2 +1,2 @@
-# Netlura
-Trabalho realizado durante a imerssão Front End na Era da IA
+# 🎬 Netlura - Sua Página de Streaming Inspirada na Netflix
+
