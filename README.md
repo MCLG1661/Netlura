@@ -12,7 +12,7 @@ A imersão abordou desde a estruturação semântica com HTML, estilização ava
 
 ---
 
-## Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 - HTML5: Para a estrutura semântica da página.
 - CSS3: Para estilização, layout responsivo e animações.
