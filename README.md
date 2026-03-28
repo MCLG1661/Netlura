@@ -48,7 +48,7 @@ aluraflix/
 
 ---
 
-##📚 Aprendizados Durante a Imersão
+## 📚 Aprendizados Durante a Imersão
 
 - Estruturação Semântica: Aprendi a importância de usar tags HTML corretas para acessibilidade e SEO.
 - CSS Moderno: Dominei o uso de Flexbox e CSS Grid para criar layouts complexos e responsivos.
