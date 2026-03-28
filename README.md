@@ -6,8 +6,8 @@
 
 ---
 
-## Sobre o Projeto
-O Aluraflix é uma página web inspirada no design da Netflix, criada para consolidar os conhecimentos adquiridos na Imersão Front-End III da Alura. O objetivo foi construir uma interface dinâmica e responsiva, similar a um serviço de streaming, onde os usuários podem visualizar cards de filmes e séries.
+## 📌 Sobre o Projeto
+Netlura é uma página web inspirada no design da Netflix, criada para consolidar os conhecimentos adquiridos na Imersão Front-End III da Alura. O objetivo foi construir uma interface dinâmica e responsiva, similar a um serviço de streaming, onde os usuários podem visualizar cards de filmes e séries.
 A imersão abordou desde a estruturação semântica com HTML, estilização avançada com CSS (incluindo Flexbox e Grid) até a implementação de interatividade com JavaScript puro, tudo isso utilizando ferramentas de IA para acelerar o desenvolvimento.
 
 
