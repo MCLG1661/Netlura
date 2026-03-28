@@ -46,4 +46,11 @@ aluraflix/
 
 ```
 
+---
+
+## 👩‍💻 Agradecimentos
+
+- A Alura
+- Agradecimentos especiais aos instrutores Guilherme Lima, Fernanda Degolin e Thamiris Adriano pela excelente condução da imersão.
+ 
 
