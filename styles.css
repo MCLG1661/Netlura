@@ -1,0 +1,303 @@
+:root {
+    --netflix-red: #E50914;
+    --bg-color: #141414;
+    --text-color: #fff;
+    --profile-hover: #fff;
+    --img-bg: #222;
+    --transition-speed: 0.3s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg-color);
+    /* Define a cor de fundo da página */
+    color: var(--text-color);
+    /* Define a cor do texto principal */
+    font-family: 'Geist', 'Segoe UI', Arial, Helvetica, sans-serif;
+    /* Define a fonte usada no site */
+    margin: 0;
+    /* Remove a margem padrão do body */
+    overflow-x: hidden;
+    min-height: 100vh;
+    /* Garante que o body ocupe pelo menos toda a altura da tela */
+}
+
+/* Centralização apenas para a tela de seleção de perfis */
+main:not(.catalog-main) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.theme-toggle {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 3.5vw;
+    /* Define o tamanho da fonte do título */
+    font-weight: 300;
+    /* Deixa o texto em negrito */
+    margin-bottom: 2rem;
+    /* Espaço abaixo do título */
+    letter-spacing: 1px;
+    /* Espaçamento entre letras */
+    text-align: center;
+}
+
+section[aria-label="Perfis disponíveis"] {
+    width: 100%;
+    /* Ocupa toda a largura disponível */
+    max-width: 1200px;
+    /* Limita a largura máxima */
+    display: flex;
+    /* Usa flexbox */
+    justify-content: center;
+    /* Centraliza os perfis */
+    overflow-x: auto; /* Permite rolagem lateral se não couber na tela */
+    padding: 1rem 0;
+}
+
+nav.profiles {
+    width: 100%;
+}
+
+ul {
+    list-style: none; /* Remove o ponto dos itens da lista */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    display: flex; /* Usa flexbox para os itens */
+    flex-wrap: nowrap; /* Mantém todos os itens na mesma linha horizontal */
+    justify-content: center; /* Centraliza os itens */
+    gap: 1rem; /* Espaço entre os itens */
+}
+
+.profile {
+    text-decoration: none;
+    /* Remove sublinhado dos links */
+    color: inherit;
+    /* Cor do texto dos links */
+    transition: transform var(--transition-speed);
+}
+
+.profile:hover {
+    transform: scale(1.05);
+    /* Aumenta levemente o perfil ao passar o mouse */
+}
+
+.profile:hover img {
+    outline-color: #fff;
+    /* Mostra o contorno branco ao passar o mouse no perfil */
+}
+
+.profile:hover figcaption {
+    color: #fff;
+    /* Acende o nome quando o mouse está sobre o link */
+}
+
+figure {
+    margin: 0;
+    /* Remove margem padrão */
+    display: flex;
+    /* Usa flexbox */
+    flex-direction: column;
+    /* Organiza em coluna */
+    align-items: center;
+    /* Centraliza itens */
+}
+
+.profile img {
+    width: 120px;
+    /* Largura fixa da imagem */
+    height: 120px;
+    /* Altura fixa da imagem */
+    border-radius: 8px;
+    /* Bordas arredondadas */
+    object-fit: cover;
+    /* Mantém proporção da imagem */
+    margin-bottom: 0.5rem;
+    /* Espaço abaixo da imagem */
+    background: #222;
+    /* Cor de fundo da imagem */
+    display: block;
+    /* Exibe como bloco */
+    outline: 2px solid transparent;
+    /* Reserva espaço para o contorno sem mover o layout */
+    transition: outline-color 0.3s;
+}
+
+figcaption {
+    font-size: 1.2vw;
+    /* Tamanho da fonte da legenda */
+    font-weight: 400;
+    /* Peso da fonte */
+    margin-top: 0.5rem;
+    /* Espaço acima da legenda */
+    letter-spacing: 0.5px;
+    /* Espaçamento entre letras */
+    color: #808080;
+    /* Cinza padrão da Netflix */
+    transition: color 0.3s;
+}
+
+.gerenciar {
+    margin-top: 3rem;
+}
+
+.botao-gerenciar {
+    background: transparent;
+    border: 1px solid gray;
+    color: gray;
+    padding: 10px 30px;
+    font-size: 1vw;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+.botao-gerenciar:hover {
+    border-color: #e5e5e5;
+    color: #e5e5e5;
+}
+
+/* Estilos para as Páginas de Catálogo */
+.catalog-main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.catalog-main h1 {
+    text-align: left;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.active-profile-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+.active-profile-container img {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+}
+
+.back-link {
+    color: var(--text-color);
+    text-decoration: none;
+    margin-bottom: 2rem;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 2 / 3; /* Proporção padrão de pôster de cinema */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.movie-card:hover img {
+    transform: scale(1.1);
+    transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+/* Light mode */
+body.light-mode {
+    --bg-color: #f5f5f5;
+    --text-color: #222;
+    --img-bg: #eee;
+    --profile-hover: #222;
+}
+
+
+/* Responsividade para tablets e celulares */
+@media (max-width: 900px) {
+    section[aria-label="Perfis disponíveis"] {
+        max-width: 100%;
+        /* Remove limite de largura */
+        padding: 0 1rem;
+        /* Adiciona espaçamento lateral */
+    }
+
+    nav.profiles {
+        gap: 1rem;
+        /* Reduz espaço entre perfis */
+    }
+
+    .profile img {
+        width: 90px;
+        /* Reduz tamanho da imagem */
+        height: 90px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        /* Reduz tamanho do título */
+    }
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 4rem 1rem;
+        justify-content: flex-start; /* Evita que o botão de tema sobreponha o título */
+    }
+
+    ul {
+        gap: 1.5rem;
+        display: flex; /* Garante que continue usando flexbox em vez de grid */
+        padding: 0 20px; /* Dá um respiro nas laterais ao rolar */
+    }
+
+    .profile img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width: 901px) {
+    nav.profiles {
+        flex-direction: row; /* Perfis na horizontal em telas grandes */
+        align-items: center;
+    }
+
+    .profile img {
+        width: 150px; /* Imagens ligeiramente maiores em telas grandes */
+        height: 150px;
+    }
+}
