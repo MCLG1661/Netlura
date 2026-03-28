@@ -34,8 +34,7 @@ A imersão abordou desde a estruturação semântica com HTML, estilização ava
 
 ## 🖥️ Como Visualizar o Projeto
 
-- Clique aqui para ver o Netlura : https://mclg1661.github.io/Netlura/
-
+- Clique aqui para ver o Netlura : http://127.0.0.1:5500/
 --- 
 
 ## 📁 Estrutura do Projeto
