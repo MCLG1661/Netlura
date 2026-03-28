@@ -35,6 +35,8 @@ A imersão abordou desde a estruturação semântica com HTML, estilização ava
 ## 🖥️ Como Visualizar o Projeto
 
 - Clique aqui para ver o Netlura : http://127.0.0.1:5500/
+- Se o navegador tiver guardado um endereço antigo, force a atualização do cache (Ctrl + F5 ou Cmd + Shift + R).
+    
 --- 
 
 ## 📁 Estrutura do Projeto
