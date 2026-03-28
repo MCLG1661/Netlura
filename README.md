@@ -48,6 +48,25 @@ aluraflix/
 
 ---
 
+##📚 Aprendizados Durante a Imersão
+
+- Estruturação Semântica: Aprendi a importância de usar tags HTML corretas para acessibilidade e SEO.
+- CSS Moderno: Dominei o uso de Flexbox e CSS Grid para criar layouts complexos e responsivos.
+- Manipulação do DOM com JS: Como criar, adicionar e remover elementos HTML de forma dinâmica.
+- IA como Ferramenta de Apoio: Utilizei inteligências artificiais (como o GitHub Copilot e outras) para sugerir trechos de código, depurar erros e acelerar o desenvolvimento, entendendo seu papel como assistente e não como substituta do programador.
+- Publicação de Projetos: Aprendi a hospedar um site estático de forma simples e gratuita.
+
+---
+
+🔮 Melhorias Futuras
+
+- Integração com API: Conectar a uma API de filmes (como a The Movie DB) para buscar dados reais.
+- Sistema de Busca: Adicionar uma barra de pesquisa para filtrar os cards.
+- Modal de Detalhes: Ao clicar em um card, abrir um modal com mais informações sobre o filme/série.
+- Carrossel Funcional: Implementar um carrossel com navegação por setas para exibir mais linhas de conteúdo.
+
+---
+
 ## 👩‍💻 Agradecimentos
 
 - A Alura
